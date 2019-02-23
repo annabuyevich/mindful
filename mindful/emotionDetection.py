@@ -10,10 +10,6 @@ cf.Key.set(faces_key)
 cf.BaseUrl.set(faces_url)
 
 
-# test image
-img = 'test_3.jpg'
-
-
 # returns bounds of all faces in input image
 def getRectangle(faceDictionary):
     rect = faceDictionary['faceRectangle']
@@ -48,8 +44,3 @@ def detectEmotion(img):
 
     # return emotion of face
     return(emotions[largestRectangleIdx])
-
-
-# test
-emotion = detectEmotion(img)
-return emotion
