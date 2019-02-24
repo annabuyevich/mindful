@@ -1,0 +1,32 @@
+#Contibuting to Mindful
+
+## Welcome contributors to the project: 
+
+## Short Links to Important Resources:
+* docs: 
+* bugs: Issues on Github
+* communcations: email
+## Testing
+## Development environment details
+The frontend is in angular.js, and the backend is in flask. 
+## How to submit changes: Please submit a pull request to have your contributions merged with master
+
+
+## How to report a bug: 
+* Templates: 
+  * Please include hoe the error occurred, relevant files, and debugging outputs
+* First bugs for Contributors
+  * 
+    
+## New Feature Requirements
+No need for approval
+
+## Style Guide / Coding conventions 
+Please use standard coding style. The backend should remain in flask and frontend in angular, for now.
+## Code of Conduct
+
+## Recognition model
+Once a significant contribution is made, the contributors name will be added to Contributors.md.
+
+## Where can I ask for help?
+Please email any contributors on the the contributors page.
