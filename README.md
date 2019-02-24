@@ -9,7 +9,7 @@ In order to guide a user's journey through our website, we have implemented the 
 ### The details:
 Mindful is built with Flask as its backend and AngularJS as its frontend. Microsoft's Face and Text Analysis APIs from their Cognitive Services suite are run in Python scripts to analyze image and text data to predict the user's emotion. The project currently runs locally on the developer's machine.
 
-Note: Most up-to-date code in mvp_real branch.
+Note: Most up-to-date code in [mvp_real branch](https://github.com/annabuyevich/mindful/tree/mvp_real).
 
 ### How to help:
 Currently, Mindful is still young and a proof of concept. In the future, we hope to expand Mindful with greater support for journal entries, more activities, and even a graph API to allow the user to track their mental health over time and make sense of how they are feeling at certain periods, and why. We would appreciate work to be done to achieve those goals first.
