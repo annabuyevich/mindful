@@ -54,12 +54,13 @@ export class CameraComponent implements OnInit {
 
         console.log(msg);
         //window.location.reload();
-        var result = '<div class="alert alert-info" role="alert"> You have been detected as ' + msg;
-        result += '</div>';
+        var result = '<div class="alert alert-info" role="alert"> Emotion:  <a href="/activity">' + msg;
+        result += '</a></div>';
         var div = document.getElementById('result');
         // div.style.removeProperty('background');
         // div.style.removeProperty('border-color');
         div.innerHTML = result;
+
 
       },
       error: function (xhr, error) {

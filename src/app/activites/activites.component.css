@@ -1,4 +1,4 @@
-h1{
+/* h1{
   padding-top: 100px;
   padding-left: 100px;
   color: #7474a7;
@@ -22,4 +22,61 @@ h3{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
 
+} */
+
+
+/* .row div {
+  
+    border: 1px solid gray;
+    height: 600px;
+}
+
+.container {
+    min-height: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#link {
+    height: 500px;
+} */
+
+.flex-grid {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    /* background: blue; */
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background: #7474a7; */
+}
+
+.col {
+    flex: 1;
+    width: 32%;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px 30px 10px 10px;
+    height: 50px;
+    margin: 0 30px;
+    background: #7474a7;
+    border: 1px solid #D3D3D3;
+    display: inline-grid;
+}
+
+a {
+    color: #fff;
+}
+
+p,
+a span {
+    color: #fff;
+}
+
+#hide-col {
+    background: transparent;
+    border: none;
 }
