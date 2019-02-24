@@ -1,4 +1,4 @@
-## Mindful
+## **Mindful**
 
 #### Our Goals
 We created a website to bring innovative assistance to people who are struggling with their mental health. About 44 million Americans do not have access to health care, which inhibits many from getting the proper mental health care they may need. We wanted to create a solution that provides resources and wellness activies for those who do not have the means to go to counseling or recieve help from a professional. On this website, users will able to track their mood, journal, and participate in mindful activities. We hope that navigating through these various components will help improve a user's overall mood. 
