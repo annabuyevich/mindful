@@ -4,6 +4,7 @@
 
 ## Short Links to Important Resources:
 * docs: [Face API Documentation](https://docs.microsoft.com/en-us/python/api/azure-cognitiveservices-vision-face/?view=azure-python)
+
         [Text Semantics Analysis](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/textanalytics?view=azure-python)
 * bugs: Issues on Github
 * communcations: email
