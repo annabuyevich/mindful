@@ -17,8 +17,8 @@ Please submit a pull request to have your contributions merged with master
 ## How to report a bug: 
 * Templates: 
   * Please include how the error occurred, relevant files, and debugging outputs
-* First bugs for Contributors
-  * 
+* First bugs for Contributors:
+  * All emotions detected get redirected to the activites page
     
 ## New Feature Requirements
 No need for approval
