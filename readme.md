@@ -15,4 +15,8 @@ Note: Most up-to-date code in mvp_real branch.
 Currently, Mindful is still young and a proof of concept. In the future, we hope to expand Mindful with greater support for journal entries, more activities, and even a graph API to allow the user to track their mental health over time and make sense of how they are feeling at certain periods, and why. We would appreciate work to be done to achieve those goals first.
 If you want to help with the project, you must build the AngularJS frontend using ng serve. The backend is simply run with Flask and a couple of Python scripts; you will need the cognitive_faces, flask, and numpy packages. If you want to submit any changes, just make a pull request!
 
+
+[Contributing Guide](https://github.com/annabuyevich/mindful/blob/master/CONTRIBUTING.md)
+
+[Contributors](https://github.com/annabuyevich/mindful/blob/master/CONTRIBUTORS.md)
 ##### Licensed under the MIT License.
