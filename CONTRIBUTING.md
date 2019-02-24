@@ -7,6 +7,7 @@
 * bugs: Issues on Github
 * communcations: email
 ## Testing
+No formal testing implemented. Please test your contributions accordingly
 ## Development environment details
 The frontend is in angular.js, and the backend is in flask. 
 ## How to submit changes: 
