@@ -3,7 +3,8 @@
 ## Welcome contributors to the project: 
 
 ## Short Links to Important Resources:
-* docs: 
+* docs: [Face API Documentation](https://docs.microsoft.com/en-us/python/api/azure-cognitiveservices-vision-face/?view=azure-python)
+        [Text Semantics Analysis](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/textanalytics?view=azure-python)
 * bugs: Issues on Github
 * communcations: email
 ## Testing
@@ -19,6 +20,7 @@ Please submit a pull request to have your contributions merged with master
   * Please include how the error occurred, relevant files, and debugging outputs
 * First bugs for Contributors:
   * All emotions detected get redirected to the activites page
+  * Page must be refreshed to take another picture to be analyzed
     
 ## New Feature Requirements
 No need for approval
