@@ -1,4 +1,4 @@
-#Contibuting to Mindful
+# Contibuting to Mindful
 
 ## Welcome contributors to the project: 
 
