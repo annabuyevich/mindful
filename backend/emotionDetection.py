@@ -33,7 +33,6 @@ def detectEmotion():
     faces_url = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0'
     cf.Key.set(faces_key)
     cf.BaseUrl.set(faces_url)
-    print(img)
     file_img = io.BytesIO(base64.b64decode(img))
 
     # with open("imageToSave.png", "wb") as fh:
@@ -41,7 +40,9 @@ def detectEmotion():
 
     # determine faces and their attributes
     faces = cf.face.detect(file_img, 'true', 'false', 'age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise')
-    print(faces)
+    if len(faces) == 0:
+        return jsonify('No face detected :(')
+                       
     # identify emotions of faces and their locations; create rectangles around bounds of faces detected
     emotions =[]
     rectangles = []
