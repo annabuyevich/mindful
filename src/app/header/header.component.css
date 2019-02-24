@@ -1,0 +1,64 @@
+.navbar-brand {
+    color: #7474a7 !important;
+    background: #D3D3D3 !important;
+}
+
+.jumbotron {
+    color: #7474a7 !important;
+    background: #D3D3D3 !important;
+}
+
+.navbar-inverse {
+    background: #D3D3D3 !important;
+    border-color: #D3D3D3 !important;
+}
+
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #7474a7;
+    font-family: 'Roboto', sans-serif !important;
+    background: #D3D3D3;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #7474a7;
+}
+
+.clickable {
+    font-size: 1.8em;
+    margin-top: 5%;
+    padding: 0px 10px 0px 10px;
+    color: #7474a7;
+    float: right;
+    justify-content: space-between;
+}
+
+.clickable:hover {
+    color: #a4c3dd;
+}
+
+.border {
+    border: 1px solid #D3D3D3 !important;
+}
+
+.disabled {
+    pointer-events: none !important;
+    cursor: default !important;
+    color: #7474a7 !important;
+    text-decoration: none !important;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.active:hover {
+    color: #a4c3dd !important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #D3D3D3;
+}
+
+h5{
+  color: #7474a7;
+}
