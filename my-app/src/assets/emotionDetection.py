@@ -1,13 +1,12 @@
 import cognitive_face as cf
+from flask import Flask, request, jsonify
 import numpy as np
+from flask_cors import CORS
 
 
-# get access to faces API
-faces_key = '23699a2992f34aa6ab96464fb0a9bec7'
-faces_url = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0'
-cf.Key.set(faces_key)
-cf.BaseUrl.set(faces_url)
-
+# define flask env
+app = Flask(__name__)
+CORS(app)
 
 # returns bounds of all faces in input image
 def getRectangle(faceDictionary):
@@ -19,8 +18,19 @@ def getRectangle(faceDictionary):
     return ((left, top), (bottom, right))
 
 
+# main function
 # detects emotion based on input image
-def detectEmotion(img):
+@app.route('/post', methods=['POST'])
+def detectEmotion():
+    # request image
+    img = request.form['img']
+
+    # get access to faces API
+    faces_key = '23699a2992f34aa6ab96464fb0a9bec7'
+    faces_url = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0'
+    cf.Key.set(faces_key)
+    cf.BaseUrl.set(faces_url)
+
     # determine faces and their attributes
     faces = cf.face.detect(img, 'true', 'false', 'age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise')
 
@@ -42,4 +52,9 @@ def detectEmotion(img):
     largestRectangleIdx = np.argmax(rectangles)
 
     # return emotion of face
-    return(emotions[largestRectangleIdx])
+    return jsonify(emotions[largestRectangleIdx])
+
+
+if __name__ == '__main__':
+    app.run()
+
