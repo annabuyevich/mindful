@@ -1,4 +1,4 @@
-/* h1{
+ h1{
   padding-top: 100px;
   padding-left: 100px;
   color: #7474a7;
@@ -7,6 +7,7 @@
   font-weight: bold;
 
 }
+/*
 h2{
 
   padding-left: 105px;
@@ -26,7 +27,7 @@ h3{
 
 
 /* .row div {
-  
+
     border: 1px solid gray;
     height: 600px;
 }
